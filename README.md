@@ -7,3 +7,4 @@ This code is intended to reproduce the conflict as described above and also in [
 3. Check `Rakefile` file
 4. Go to path of cloned version of this repo run `rake -T`
 	- **Namespace is missing for the routes task**
+	- The output of `rake -T` shall be: `rake app:routes  # show all routes`
